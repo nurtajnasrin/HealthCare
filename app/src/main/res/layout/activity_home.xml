@@ -203,6 +203,7 @@
                     android:text="Order Details">
                 </TextView>
 
+
                 <ImageView
                     android:id="@+id/order_image"
                     android:layout_width="100dp"
