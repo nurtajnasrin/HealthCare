@@ -13,9 +13,23 @@
         android:theme="@style/Theme.HealthCare"
         tools:targetApi="31">
         <activity
+            android:name=".order_details"
+            android:exported="false" />
+        <activity
+            android:name=".health_articales"
+            android:exported="false" />
+        <activity
+            android:name=".doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".Labtest"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
-
         <activity
             android:name=".Registration"
             android:exported="false" />
