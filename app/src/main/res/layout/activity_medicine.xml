@@ -7,13 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".Medicine">
 
-    <TextView
+    <ListView
+        android:id="@+id/medicine"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Medicine"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="50dp"
-        android:textColor="#BF0F0F"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
         />
 </LinearLayout>

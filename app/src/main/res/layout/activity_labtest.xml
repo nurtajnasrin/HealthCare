@@ -7,13 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".Labtest">
 
-    <TextView
+
+
+
+    <ListView
+        android:id="@+id/labListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="LabTest"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="50dp"
-        android:textColor="#A05050"
-        />
+        android:layout_height="wrap_content" />
 </LinearLayout>
